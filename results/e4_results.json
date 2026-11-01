@@ -1,0 +1,397 @@
+{
+  "experiment": "E4",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "text": "A shop sells a product for $120 after applying a 20% discount. What was its original price? Let the original price be P. A 20% discount means the customer pays",
+  "tokens": [
+    "A",
+    " shop",
+    " sells",
+    " a",
+    " product",
+    " for",
+    " $",
+    "1",
+    "2",
+    "0",
+    " after",
+    " applying",
+    " a",
+    " ",
+    "2",
+    "0",
+    "%",
+    " discount",
+    ".",
+    " What",
+    " was",
+    " its",
+    " original",
+    " price",
+    "?",
+    " Let",
+    " the",
+    " original",
+    " price",
+    " be",
+    " P",
+    ".",
+    " A",
+    " ",
+    "2",
+    "0",
+    "%",
+    " discount",
+    " means",
+    " the",
+    " customer",
+    " pays"
+  ],
+  "discount_occurrences": [
+    [
+      17
+    ],
+    [
+      37
+    ]
+  ],
+  "rate_occurrences": [
+    [
+      14,
+      15
+    ],
+    [
+      34,
+      35
+    ]
+  ],
+  "attention_top10": [
+    {
+      "layer": 0,
+      "head": 6,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 15,
+      "weight": 0.298828125
+    },
+    {
+      "layer": 1,
+      "head": 8,
+      "discount_occurrence": 2,
+      "rate_occurrence": 2,
+      "discount_pos": 37,
+      "rate_pos": 34,
+      "weight": 0.294921875
+    },
+    {
+      "layer": 8,
+      "head": 11,
+      "discount_occurrence": 2,
+      "rate_occurrence": 2,
+      "discount_pos": 37,
+      "rate_pos": 35,
+      "weight": 0.2470703125
+    },
+    {
+      "layer": 1,
+      "head": 8,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 14,
+      "weight": 0.2421875
+    },
+    {
+      "layer": 1,
+      "head": 9,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 15,
+      "weight": 0.2314453125
+    },
+    {
+      "layer": 4,
+      "head": 0,
+      "discount_occurrence": 2,
+      "rate_occurrence": 2,
+      "discount_pos": 37,
+      "rate_pos": 34,
+      "weight": 0.2265625
+    },
+    {
+      "layer": 0,
+      "head": 4,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 14,
+      "weight": 0.212890625
+    },
+    {
+      "layer": 0,
+      "head": 4,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 15,
+      "weight": 0.212890625
+    },
+    {
+      "layer": 0,
+      "head": 0,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 15,
+      "weight": 0.1806640625
+    },
+    {
+      "layer": 8,
+      "head": 11,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 15,
+      "weight": 0.1796875
+    }
+  ],
+  "attention_focused_scratchpad_pair_top5": [
+    {
+      "layer": 1,
+      "head": 8,
+      "discount_occurrence": 2,
+      "rate_occurrence": 2,
+      "discount_pos": 37,
+      "rate_pos": 34,
+      "weight": 0.294921875
+    },
+    {
+      "layer": 8,
+      "head": 11,
+      "discount_occurrence": 2,
+      "rate_occurrence": 2,
+      "discount_pos": 37,
+      "rate_pos": 35,
+      "weight": 0.2470703125
+    },
+    {
+      "layer": 4,
+      "head": 0,
+      "discount_occurrence": 2,
+      "rate_occurrence": 2,
+      "discount_pos": 37,
+      "rate_pos": 34,
+      "weight": 0.2265625
+    },
+    {
+      "layer": 7,
+      "head": 9,
+      "discount_occurrence": 2,
+      "rate_occurrence": 2,
+      "discount_pos": 37,
+      "rate_pos": 35,
+      "weight": 0.17578125
+    },
+    {
+      "layer": 0,
+      "head": 0,
+      "discount_occurrence": 2,
+      "rate_occurrence": 2,
+      "discount_pos": 37,
+      "rate_pos": 35,
+      "weight": 0.1669921875
+    }
+  ],
+  "attention_problem_pair_top5": [
+    {
+      "layer": 0,
+      "head": 6,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 15,
+      "weight": 0.298828125
+    },
+    {
+      "layer": 1,
+      "head": 8,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 14,
+      "weight": 0.2421875
+    },
+    {
+      "layer": 1,
+      "head": 9,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 15,
+      "weight": 0.2314453125
+    },
+    {
+      "layer": 0,
+      "head": 4,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 14,
+      "weight": 0.212890625
+    },
+    {
+      "layer": 0,
+      "head": 4,
+      "discount_occurrence": 1,
+      "rate_occurrence": 1,
+      "discount_pos": 17,
+      "rate_pos": 15,
+      "weight": 0.212890625
+    }
+  ],
+  "attention_max": {
+    "layer": 0,
+    "head": 6,
+    "discount_occurrence": 1,
+    "rate_occurrence": 1,
+    "discount_pos": 17,
+    "rate_pos": 15,
+    "weight": 0.298828125
+  },
+  "logit_lens": {
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "p_digit8": [
+      1.8283301583431618e-40,
+      3.6925607016513595e-10,
+      1.4935852732378407e-07,
+      2.0575892278884567e-07,
+      6.702396149194101e-08,
+      1.0626325064322373e-07,
+      4.3571714058998623e-07,
+      3.0866968359077873e-07,
+      3.0133538331256204e-08,
+      1.1862377746751918e-08,
+      1.1502593544321371e-08,
+      4.3642504721219666e-08,
+      5.4566775986586435e-08,
+      2.2698124269027176e-08,
+      8.516833105431942e-08,
+      4.7456836682613357e-07,
+      3.953727355110459e-05,
+      0.0005820239312015474,
+      4.218691901769489e-05,
+      1.5738787624286488e-06,
+      0.014885373413562775,
+      0.796765148639679,
+      0.7042380571365356,
+      0.9938557744026184,
+      0.9643046855926514
+    ],
+    "p_digit2": [
+      3.975449954226706e-31,
+      2.261967946282084e-09,
+      1.349341829381956e-07,
+      2.0336176476121182e-07,
+      7.835895132757287e-08,
+      9.37769826236945e-08,
+      3.967249710967735e-07,
+      9.96397943708871e-07,
+      6.390787454790825e-09,
+      3.300996098687392e-08,
+      4.6983625878738167e-08,
+      6.202850499903434e-08,
+      1.7477294989021175e-07,
+      3.5569943435120877e-08,
+      1.7070588853584923e-07,
+      2.139047268201466e-07,
+      0.00010096195910591632,
+      0.00013398952432908118,
+      1.5854371895329677e-06,
+      9.305338721787848e-08,
+      0.0009515900746919215,
+      7.657841342734173e-05,
+      4.508825077209622e-05,
+      0.00048509627231396735,
+      0.005733965430408716
+    ],
+    "rank_digit8": [
+      27,
+      147351,
+      84786,
+      67376,
+      99912,
+      65570,
+      45316,
+      50698,
+      102279,
+      117129,
+      120697,
+      98022,
+      90785,
+      113038,
+      93398,
+      47185,
+      2739,
+      201,
+      2357,
+      22713,
+      7,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "logit_lens_position": "after trailing space token; next-token candidates '8' (id 23) vs '2' (id 17)",
+  "digit_position_top5_next_tokens": [
+    {
+      "token": "8",
+      "prob": 0.968039333820343
+    },
+    {
+      "token": "1",
+      "prob": 0.025797374546527863
+    },
+    {
+      "token": "2",
+      "prob": 0.005756172351539135
+    },
+    {
+      "token": "7",
+      "prob": 0.00015339678793679923
+    },
+    {
+      "token": "3",
+      "prob": 7.245951564982533e-05
+    }
+  ],
+  "continuation_logprob_80pct": -0.1715521086589149,
+  "continuation_logprob_20pct": -5.7275448521832
+}

@@ -1,0 +1,7 @@
+torch==2.15.0
+transformers==4.49.0
+numpy>=1.26
+matplotlib>=3.8
+# Probes (E2) are implemented in numpy: scikit-learn is NOT required.
+# The model weights (Qwen/Qwen2.5-0.5B-Instruct, ~1 GB) are downloaded
+# separately from Hugging Face; set QWEN05B_PATH to the local directory.
